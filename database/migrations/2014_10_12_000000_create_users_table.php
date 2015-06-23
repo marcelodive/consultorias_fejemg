@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration {
 			//Activated?
 			$table->boolean('status')->default(false);
 			$table->rememberToken();
-			$table->timestamps();
+			$table->timestamps('create_at');
 		});
 	}
 

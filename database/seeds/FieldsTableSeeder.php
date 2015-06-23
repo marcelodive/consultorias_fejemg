@@ -8,7 +8,7 @@ class FieldsTableSeeder extends Seeder {
 
 		$fields = array (
 				[
-						'id' => null,
+						'id' => 1,
 						'name' => 'Informática',
 				],
 		);

@@ -8,7 +8,7 @@ class UsersTableSeeder extends Seeder {
 
 		$users = array (
 				[
-						'id' => null,
+						'id' => 1,
 						'name' => 'Marcelo Pereira Rodrigues',
 						'email' => 'marcelo.rodrigues@ijunior.com.br',
 						'password' => '',

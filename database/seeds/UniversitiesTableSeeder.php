@@ -8,7 +8,7 @@ class UniversitiesTableSeeder extends Seeder {
 
 		$universities = array (
 				[
-						'id' => null,
+						'id' => 1,
 						'name' => 'Universidade Federal de Minas Gerais',
 				],
 		);

@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use DB;
 
 class ConsultoriasController extends Controller {
 
@@ -14,8 +15,13 @@ class ConsultoriasController extends Controller {
 	 */
 	public function index()
 	{
-		$lessons = ['Lesson 1'];
-		return view('pages.consultorias', compact('lessons', 'names'));
+		$cities = DB::table('cities')
+					->join('junior_enterprises','cities.id','=','junior_enterprises.city_id')
+					->select('*', 'cities.name as city_name')
+					->groupBy('cities.name')
+					->get();
+		
+		return view('pages.consultorias', compact('cities'));
 	}
 
 	/**
