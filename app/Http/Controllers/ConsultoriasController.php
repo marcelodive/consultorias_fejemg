@@ -17,12 +17,46 @@ class ConsultoriasController extends Controller {
 	{
 		$cities = DB::table('cities')
 					->join('junior_enterprises','cities.id','=','junior_enterprises.city_id')
-					->select('*', 'cities.name as city_name')
+					->select('*', 'cities.name as city_name', 'cities.id as city_id')
 					->groupBy('cities.name')
 					->get();
 		
-		return view('pages.consultorias', compact('cities'));
+		$cities_pack = [];
+		
+		foreach($cities as $city):
+			$city_fields = DB::select(DB::raw("
+					select `fields`.`name` 
+					from `fields` 
+					inner join `services` on `fields`.`id` = `services`.`field_id` 
+					inner join `service_je` on `services`.`id` = `service_je`.`service_id` 
+					inner join `junior_enterprises` on `junior_enterprises`.`id` = `service_je`.`je_id` 
+					inner join `cities` on `junior_enterprises`.`city_id` = `cities`.`id` 
+					where `cities`.`id` = ".$city->city_id.";
+					"));
+		
+			$cities_pack[$city->city_name] = $city_fields;			
+		endforeach;
+		
+		$jsonified = json_encode($cities_pack);
+		
+		
+		return view('pages.consultorias', compact('cities','jsonified'));
 	}
+	
+	public function populateSelectFields($id){
+		
+		
+		return View::make('pages.consultorias', compact('fields'));
+	}
+	
+	/**
+	 * Show the result from the query
+	 */
+	public function result()
+	{
+		//
+	}
+	
 
 	/**
 	 * Show the form for creating a new resource.

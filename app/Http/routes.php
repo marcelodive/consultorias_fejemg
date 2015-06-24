@@ -12,6 +12,7 @@
 */
 
 Route::get('consultorias', 'ConsultoriasController@index');
+Route::get('consultorias/resultado','ConsultoriasController@result');
 
 Route::get('consultorias/usuario/inscricao', 'UserController@create');
 
