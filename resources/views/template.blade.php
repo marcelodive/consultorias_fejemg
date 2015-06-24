@@ -27,6 +27,11 @@
 
 </head>
 <body>
+	<div style="background-color:#ab0f3a;" >
+		<center><a href="consultorias">
+		<img alt="Logo Consultorias" src="/images/logo-consultoria-branca.png">
+		</a></center>
+	</div>
 
 	<nav class="navbar navbar-default">
 		<div class="container">
@@ -37,67 +42,69 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Consultorias</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Quem Somos</a></li>
-					<li><a href="#">Parceiros</a></li>
-					<li><a href="#">Contato</a></li>
+					<li><a href="consultorias">
+					<img alt="Início" src="/images/home.png"
+					style="width:20px;">
+					Início</a></li>
+					<li><a href="#">
+					<img alt="Quem Somos" src="/images/icone-consultoria.png"
+					style="width:20px;">
+					Quem Somos</a></li>
+					<li><a href="#">
+					<img alt="Quem Somos" src="/images/contato.png"
+					style="width:20px;">
+					Contato</a></li>
 				</ul>
 
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" role="button" aria-expanded="false">Usuário
-							<span class="caret"></span>
-					</a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Perfil</a></li>
-							<li><a href="#">Logout</a></li>
-						</ul></li>
-				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class="container">@yield('content')</div>
-
-	<div class="navbar-default">
-		<div class="container">
-			<div class="col-md-6 footer-left">
-				<h3>Redes Sociais</h3>
-				<p>Imagens das redes sociais...</p>
+	<div class="container">@yield('content')</div>	
+	
+		
+			<div style="background-color: #4d4d4d; padding:20px;">
+				<center><h3 style="color:#989898">Parceiros</h3>
+				<p>Em breve...</p></center>
 			</div>
-			<div class="col-md-6 footer-right">
-				<h3>Parceiros</h3>
-				<p>Logo dos Parceiros...</p>
-				<p>
-					<a class="btn btn-default" href="#" role="button">Mais Informações
-						»</a>
-				</p>
+			
+			<div style="background-color: #a3a3a3; padding:20px; height:90px;">
+				<div class="col-lg-4">
+					<img alt="Logo Consultorias" src="/images/fejemg-left-bottom.png">
+				</div>
+				<div class="col-lg-4" style="text-align: center">
+					
+				</div>
+				<div class="col-lg-4" style="text-align: right">
+					<img alt="Logo Consultorias" src="/images/social-icons-right-bottom.png">
+				</div>
 			</div>
-		</div>
+		
 		<hr></hr>
 		<div class="col-lg-12" style="text-align: center">
-			<p>
-				© Copyright 2015 <a href="http://www.fejemg.org.br/site/">Fejemg</a>
+			<img alt="Logo Consultorias" src="/images/logo-consultoria.png"
+			style="width:200px;">
+		
+<!-- 			<p> -->
+<!-- 				© Copyright 2015 <a href="http://www.fejemg.org.br/site/">Fejemg</a> -->
 
-				<br>Desenvolvido por:
-			</p>
+<!-- 				<br>Desenvolvido por: -->
+<!-- 			</p> -->
 
-			<img
-				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png"
-				class="img-circle"> <img
-				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png"
-				class="img-circle"> <img
-				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png"
-				class="img-circle"> <img
-				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png"
-				class="img-circle">
+<!-- 			<img -->
+<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
+<!-- 				class="img-circle"> <img -->
+<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
+<!-- 				class="img-circle"> <img -->
+<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
+<!-- 				class="img-circle"> <img -->
+<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
+<!-- 				class="img-circle"> -->
 
 		</div>
-	</div>
 </body>
 </html>

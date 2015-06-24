@@ -10,23 +10,23 @@ class CreateCitiesTable extends Migration {
 	 *
 	 * @return void
 	 */
-// 	public function up()
-// 	{
+	public function up()
+	{
 // 		Schema::create('cities', function(Blueprint $table)
 // 		{
 // 			$table->increments('id');
 // 			$table->timestamps();
 // 		});
-// 	}
+	}
 
-// 	/**
-// 	 * Reverse the migrations.
-// 	 *
-// 	 * @return void
-// 	 */
-// 	public function down()
-// 	{
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
 // 		Schema::drop('cities');
-// 	}
+	}
 
 }

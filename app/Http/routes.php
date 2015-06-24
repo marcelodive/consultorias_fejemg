@@ -12,7 +12,9 @@
 */
 
 Route::get('consultorias', 'ConsultoriasController@index');
-Route::get('consultorias/resultado','ConsultoriasController@result');
+Route::post('consultorias', 'ConsultoriasController@result');
+
+Route::get('consultorias/resultado','ConsultoriasController@index');
 
 Route::get('consultorias/usuario/inscricao', 'UserController@create');
 

@@ -3,7 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use Illuminate\Http\Request;
+use Request;
 use DB;
 
 class ConsultoriasController extends Controller {
@@ -25,7 +25,7 @@ class ConsultoriasController extends Controller {
 		
 		foreach($cities as $city):
 			$city_fields = DB::select(DB::raw("
-					select `fields`.`name` 
+					select distinct `fields`.`name` 
 					from `fields` 
 					inner join `services` on `fields`.`id` = `services`.`field_id` 
 					inner join `service_je` on `services`.`id` = `service_je`.`service_id` 
@@ -36,16 +36,32 @@ class ConsultoriasController extends Controller {
 		
 			$cities_pack[$city->city_name] = $city_fields;			
 		endforeach;
+				
+		foreach (array_values($cities_pack) as $city):
+		foreach ($city as $fields):
+		foreach ($fields as $field):
+			$fields_services = DB::select(DB::raw("
+					select distinct `services`.`name` 
+					from `services` 
+					inner join `fields` on `fields`.`id` = `services`.`field_id` 
+					inner join `service_je` on `services`.`id` = `service_je`.`service_id` 
+					inner join `junior_enterprises` on `junior_enterprises`.`id` = `service_je`.`je_id` 
+					inner join `cities` on `junior_enterprises`.`city_id` = `cities`.`id` 
+					where `fields`.`name` LIKE '".$field."';
+					"));	
+				
+			$fields_pack[$field] = $fields_services;
+		endforeach;
+		endforeach;
+		endforeach;
 		
-		$jsonified = json_encode($cities_pack);
+		$jsonifiedCities = json_encode($cities_pack);
+		$jsonifiedJEs = json_encode($fields_pack);		
 		
-		
-		return view('pages.consultorias', compact('cities','jsonified'));
+		return view('pages.consultorias', compact('cities','jsonifiedCities','jsonifiedJEs'));
 	}
 	
-	public function populateSelectFields($id){
-		
-		
+	public function populateSelectFields($id){		
 		return View::make('pages.consultorias', compact('fields'));
 	}
 	
@@ -54,7 +70,34 @@ class ConsultoriasController extends Controller {
 	 */
 	public function result()
 	{
-		//
+		$city = Request::get('city_selected');
+		
+		$field = Request::get('field_selected');	
+		$service = Request::get('service_selected');
+		
+		
+		if ($city == "Todas as Cidades") {			
+			$result = DB::select(DB::raw("
+					select `junior_enterprises`.*, `cities`.`name` as `city_name`
+					from `junior_enterprises`
+					inner join `service_je` on `junior_enterprises`.`id` = `service_je`.`je_id`
+					inner join `services` on `services`.`id` = `service_je`.`service_id`
+					inner join `cities` on `junior_enterprises`.`city_id` = `cities`.`id`
+					and `services`.`name` LIKE '".$service."'
+					;"));			
+		} else {
+		$result = DB::select(DB::raw("
+					select `junior_enterprises`.*, `cities`.`name` as `city_name`
+					from `junior_enterprises`
+					inner join `service_je` on `junior_enterprises`.`id` = `service_je`.`je_id`
+					inner join `services` on `services`.`id` = `service_je`.`service_id`
+					inner join `cities` on `junior_enterprises`.`city_id` = `cities`.`id`
+					where `cities`.`name` LIKE '".$city."'
+					and `services`.`name` LIKE '".$service."'
+					;"));
+		}
+		
+  		return view('pages.consultorias.resultado', compact('result','service'));
 	}
 	
 

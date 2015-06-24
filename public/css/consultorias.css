@@ -1,1 +1,17 @@
 @CHARSET "UTF-8";
+
+.navbar-default {
+	background-color: #ededed;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ae1841;
+}
+
+h1 {
+	color: #ae1841;
+}
+
+th {
+	padding:2px;
+}

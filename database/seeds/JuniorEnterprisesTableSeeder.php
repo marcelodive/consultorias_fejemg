@@ -16,7 +16,7 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'website' => 'http://ijunior.com.br/site/',
 						'university_id' => 1,
 						'city_id' => 1630,
-						'image' => 'resources/images/ijunior.png'
+						'image' => 'http://ijunior.com.br/site/img/faixa/logo.png'
 				],
 				[ 
 						'id' => 2,
@@ -27,7 +27,7 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'website' => 'http://www.ucj.com.br/site/index.php',
 						'university_id' => 1,
 						'city_id_id' => 1630,
-						'image' => 'resources/images/ucj.png'
+						'image' => 'http://www.ucj.com.br/site/images/layout/logo.png'
 				],
 		);
 		
