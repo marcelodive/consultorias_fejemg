@@ -8,9 +8,9 @@ class ServicesSeeder extends Seeder {
 
 		$services = array (
 				[
-						'id' => 1,
+						'id' => 53,
 						'name' => 'Desenvolvimento de Website',
-						'field_id' => 1
+						'field_id' => 17
 				],
 		);
 		

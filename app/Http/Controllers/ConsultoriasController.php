@@ -31,7 +31,7 @@ class ConsultoriasController extends Controller {
 					inner join `service_je` on `services`.`id` = `service_je`.`service_id` 
 					inner join `junior_enterprises` on `junior_enterprises`.`id` = `service_je`.`je_id` 
 					inner join `cities` on `junior_enterprises`.`city_id` = `cities`.`id` 
-					where `cities`.`id` = ".$city->city_id.";
+					where `cities`.`id` = ".$city->city_id." ORDER BY `fields`.`name` ASC;
 					"));
 		
 			$cities_pack[$city->city_name] = $city_fields;			
@@ -47,7 +47,7 @@ class ConsultoriasController extends Controller {
 					inner join `service_je` on `services`.`id` = `service_je`.`service_id` 
 					inner join `junior_enterprises` on `junior_enterprises`.`id` = `service_je`.`je_id` 
 					inner join `cities` on `junior_enterprises`.`city_id` = `cities`.`id` 
-					where `fields`.`name` LIKE '".$field."';
+					where `fields`.`name` LIKE '".$field."' ORDER BY `services`.`name` ASC;
 					"));	
 				
 			$fields_pack[$field] = $fields_services;
@@ -70,8 +70,7 @@ class ConsultoriasController extends Controller {
 	 */
 	public function result()
 	{
-		$city = Request::get('city_selected');
-		
+		$city = Request::get('city_selected');		
 		$field = Request::get('field_selected');	
 		$service = Request::get('service_selected');
 		

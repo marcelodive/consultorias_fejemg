@@ -11,6 +11,10 @@ class UniversitiesTableSeeder extends Seeder {
 						'id' => 1,
 						'name' => 'Universidade Federal de Minas Gerais',
 				],
+				[
+						'id' => 2,
+						'name' => 'Universidade Federal de Viçosa',
+				],
 		);
 
 		// Uncomment the below to run the seeder

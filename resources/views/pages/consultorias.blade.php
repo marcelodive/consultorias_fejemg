@@ -42,16 +42,26 @@
 <div id="servicesData" data-load='{{ $jsonifiedJEs }}'></div>
 
 <script> 
-	$(document).ready(function(){		
+	$(document).ready(function(){	
+			
 		var load = $('#fieldsData').data('load');
 		var lists = "";
+		var names = [];
+		var uniqueNames = [];
 		lists = lists + "<option value=\"Todos os Ramos\">Todos os Ramos</option>";
 		for(var city in load){
 			load[city].forEach(function(entry){
-        		lists = lists + "<option value=\""+entry.name+"\">"+entry.name+"</option>";
+				names.push(entry.name);        		
 		    });
 		}
-		$('#fields').html(lists);	
+		$.each(names, function(i, el){
+		    if($.inArray(el, uniqueNames) === -1) {
+		    	 lists = lists + "<option value=\""+el+"\">"+el+"</option>";
+		   		 uniqueNames.push(el);
+		    }
+		});	
+		$('#fields').html(lists);
+		
 
 		load = $('#servicesData').data('load');
 		lists = "";
@@ -61,7 +71,8 @@
         		lists = lists + "<option value=\""+entry.name+"\">"+entry.name+"</option>";
 		    });
 		}
-		$('#services').html(lists);	
+		$('#services').html(lists);		
+		
 		
 	  $('#cities').change(function(){
 		load = $('#fieldsData').data('load');
@@ -83,25 +94,35 @@
 	    }
 	    $('#fields').html(lists);
 	  });
+	  
 
-	  $('#fields').change(function(){
+	  $('#fields' || '#cities').change(function(){
 		  load = $('#servicesData').data('load');
 		    var value = $(this).val();
 		    lists = "";
+			var names = [];
+			var uniqueNames = [];
 		    for(var field in load){
 		      if(value == field){
 		        load[field].forEach(function(entry){
-		          lists = lists + "<option value=\""+entry.name+"\">"+entry.name+"</option>";
+				  names.push(entry.name); 
 		        });
 		      }
 		      else if (value == "Todos os Ramos"){
+    			  lists = "";
 		    	  load[field].forEach(function(entry){
-	    			  lists = "";
-// 	    			  lists = lists + "<option value=\"Todos os Serviços\">Todos os Serviços</option>";
-			          lists = lists + "<option value=\""+entry.name+"\">"+entry.name+"</option>";
+		    		  names.push(entry.name); 
 			      });
 		      }
 		    }
+
+		    $.each(names, function(i, el){
+			    if($.inArray(el, uniqueNames) === -1) {
+			    	 lists = lists + "<option value=\""+el+"\">"+el+"</option>";
+			   		 uniqueNames.push(el);
+			    }
+			});
+		    
 		    $('#services').html(lists);
 		  });	  
 	});

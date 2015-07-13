@@ -8,8 +8,8 @@ class ServiceJESeeder extends Seeder {
 
 		$serviceJE = array (
 				[
-						'service_id' => 1,
-						'je_id' => 1
+						'service_id' => 51,
+						'je_id' => 53
 				],
 		);
 		

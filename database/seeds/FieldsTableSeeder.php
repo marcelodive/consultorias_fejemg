@@ -11,6 +11,10 @@ class FieldsTableSeeder extends Seeder {
 						'id' => 1,
 						'name' => 'Informática',
 				],
+				[
+						'id' => 3,
+						'name' => 'Economia',
+				],
 		);
 		
 		// Uncomment the below to run the seeder
