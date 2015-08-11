@@ -142,7 +142,7 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 				],
 				[ 
 						'id' => 11,
-						'name' => 'UCJ - Consultoria Jr.',
+						'name' => 'UCJ - UFMG Consultoria Júnior.',
 						'abbreviation' => 'UCJ',
 						'email' => 'ucj@ucj.com.br',
 						'phone' => '(31)3499-3560',
