@@ -1,11 +1,11 @@
-APP_ENV=local
+﻿APP_ENV=local
 APP_DEBUG=true
 APP_KEY=SomeRandomString
 
 DB_HOST=localhost
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
+DB_DATABASE=fejemg_consultorias
+DB_USERNAME=fejemg_consultor
+DB_PASSWORD=fejemg_consultor
 
 CACHE_DRIVER=file
 SESSION_DRIVER=file

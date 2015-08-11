@@ -9,11 +9,63 @@ class FieldsTableSeeder extends Seeder {
 		$fields = array (
 				[
 						'id' => 1,
-						'name' => 'Informática',
+						'name' => 'Tecnologia da Informação',
+				],
+				[
+						'id' => 2,
+						'name' => 'Economia',
 				],
 				[
 						'id' => 3,
-						'name' => 'Economia',
+						'name' => 'Elétrica',
+				],
+				[
+						'id' => 4,
+						'name' => 'Eletrônica',
+				],
+				[
+						'id' => 5,
+						'name' => 'Comunicação',
+				],
+				[
+						'id' => 6,
+						'name' => 'Farmácia',
+				],
+				[
+						'id' => 7,
+						'name' => 'Nutrição',
+				],
+				[
+						'id' => 8,
+						'name' => 'Administração',
+				],
+				[
+						'id' => 9,
+						'name' => 'Marketing',
+				],
+				[
+						'id' => 10,
+						'name' => 'Recursos Humanos',
+				],
+				[
+						'id' => 11,
+						'name' => 'Engenharia',
+				],
+				[
+						'id' => 12,
+						'name' => 'Arquitetura',
+				],
+				[
+						'id' => 13,
+						'name' => 'Saúde',
+				],
+				[
+						'id' => 14,
+						'name' => 'Empreendedorismo',
+				],
+				[
+						'id' => 15,
+						'name' => 'Ambiente',
 				],
 		);
 		

@@ -8,7 +8,7 @@
 	<div class="container row">	
 	@foreach($result as $je)
 				
-			<div class="col-md-4 thumbnail" style="margin:5px;">	
+			<div class="col-md-6 thumbnail" style="margin:5px;">	
 				<center><p style="color:#ab0f3a;"><strong>{{ $je->name }}</strong></p></center><br />
 				<div class="row">
 					<div class="col-md-4">
@@ -28,7 +28,7 @@
 								</tr>
 								<tr>
 									<th>Site: </th>
-									<a href="{{ $je->website }}"><td>{{ $je->website }}</td></a>
+									<td><a href="{{ $je->website }}">{{ $je->website }}</a></td>
 								</tr>
 								<tr>
 									<th>Município: </th>

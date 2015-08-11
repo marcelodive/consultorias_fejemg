@@ -57,7 +57,7 @@ class ConsultoriasController extends Controller {
 		
 		$jsonifiedCities = json_encode($cities_pack);
 		$jsonifiedJEs = json_encode($fields_pack);		
-		
+
 		return view('pages.consultorias', compact('cities','jsonifiedCities','jsonifiedJEs'));
 	}
 	
@@ -65,6 +65,7 @@ class ConsultoriasController extends Controller {
 		return View::make('pages.consultorias', compact('fields'));
 	}
 	
+
 	/**
 	 * Show the result from the query
 	 */
