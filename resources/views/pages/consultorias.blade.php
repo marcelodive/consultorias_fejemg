@@ -58,10 +58,11 @@
 
 <script> 
 	$(document).ready(function(){	
-		
+		ordenarCidades();
 		$('#popup').bPopup();
 	
 		changeFields();
+
 		//Primeira carregamento dos serviços.	
 		var load = $('#servicesData').data('load');
 		var lists = "";
@@ -71,7 +72,8 @@
         		lists = lists + "<option value=\""+entry.name+"\">"+entry.name+"</option>";
 		    });
 		}
-		$('#services').html(lists);		
+		$('#services').html(lists);
+		ordenarServices();
 		
 		
 	  $('#cities').change(function(){
@@ -137,7 +139,6 @@
 		    
 		  });	*/
 	changeServices();
-
 	});
 
 	function changeServices(){
@@ -151,8 +152,9 @@
 			}).then(function(data) {
        			$('#services').html(data);
 				 });
+		ordenarServices();
   	};
-  	
+
   	function changeFields(){
 		var load = $('#fieldsData').data('load');
 		var lists = "";				
@@ -172,7 +174,24 @@
 		    }
 		});	
 		$('#fields').html(lists);
+	ordenarFields();
 	}
+
+	function ordenarFields(){   
+        $("#fields").html($("option", $("#fields")).sort(function(a,b){
+            return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
+        }));
+    }
+    function ordenarServices(){   
+        $("#services").html($("option", $("#services")).sort(function(a,b){
+            return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
+        }));
+    }
+     function ordenarCidades(){   
+        $("#cities").html($("option", $("#cities")).sort(function(a,b){
+            return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
+        }));
+    }
 });
 </script>
 @stop
