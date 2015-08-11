@@ -109,7 +109,7 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 				],
 				[ 
 						'id' => 8,
-						'name' => 'Produção Jr. - Consultoria & Assessoria',
+						'name' => 'PJ UFMG - Consultoria & Assessoria',
 						'abbreviation' => 'PJ',
 						'email' => 'marketing@producaojunior.com.br',
 						'phone' => '(31)3409-4809',
