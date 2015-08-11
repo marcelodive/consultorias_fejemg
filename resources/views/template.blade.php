@@ -73,19 +73,21 @@
 				<center><h3 style="color:#989898">Parceiros</h3>
 				<p>Em breve...</p></center>
 			</div>
-			
-			<div style="background-color: #a3a3a3; padding:20px; height:90px;">
-				<div class="col-lg-4">
-					<img alt="Logo Consultorias" src="{{ url('/images/fejemg-left-bottom.png') }}">
+	<div id= "footer">
+		<div class= "row" style="margin-right: 0px !important;">		
+				<div style="background-color: #a3a3a3; padding:20px; height:90px;">
+					<div class="col-xs-4">
+						<img alt="Logo Consultorias" src="{{ url('/images/fejemg-left-bottom.png') }}">
+					</div>
+					<div class="col-xs-4" style="text-align: center">
+						
+					</div>
+					<div class="col-xs-4" style="text-align: right">
+						<img alt="Logo Consultorias" src="{{ url('/images/social-icons-right-bottom.png') }}">
+					</div>
 				</div>
-				<div class="col-lg-4" style="text-align: center">
-					
-				</div>
-				<div class="col-lg-4" style="text-align: right">
-					<img alt="Logo Consultorias" src="{{ url('/images/social-icons-right-bottom.png') }}">
-				</div>
-			</div>
-		
+		</div>
+	</div>	
 		<hr></hr>
 		<div class="col-lg-12" style="text-align: center">
 			<img alt="Logo Consultorias" src="{{ url('/images/logo-consultoria.png') }}"
