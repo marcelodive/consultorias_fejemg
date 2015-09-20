@@ -239,9 +239,142 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'city_id' => 2295,
 						'image' => 'http://www.linkedej.com.br/site/images/linked.png'
 				],
+				[ 
+						'id' => 20,
+						'name' => 'Acesso Comunicação Jr.',
+						'abbreviation' => 'Acesso',
+						'email' => 'contato@acessojr.com',
+						'phone' => '(32)2102-3614',
+						'website' => 'http://acessojr.com/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://acessojr.com/wp-content/themes/acesso/images/acesso.png'
+				],
+				[ 
+						'id' => 21,
+						'name' => 'Empresa de Consultorias Farmacêutica Jr.',
+						'abbreviation' => 'EcoFarma',
+						'email' => 'faleconosco@ecofarmajr.com.br',
+						'phone' => '(32)2102-3819',
+						'website' => 'http://www.ecofarmajr.com.br/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://www.ecofarmajr.com.br/novosite/wp-content/themes/ecofarmajr-2_0/images/home/logo.png'
+				],
+				[ 
+						'id' => 22,
+						'name' => 'Machado Sobrinho Consultoria Integrada',
+						'abbreviation' => 'MASCI Consultoria Jr.',
+						'email' => 'masci@masciconsultoria.com.br',
+						'phone' => '(32)3217-8587',
+						'website' => 'http://www.masciconsultoria.com.br/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://www.masciconsultoria.com.br/wp-content/themes/masci/_img/logo.png'
+				],
+				[ 
+						'id' => 23,
+						'name' => 'Porte Empresa Jr.',
+						'abbreviation' => 'Porte Empresa Jr.',
+						'email' => 'portejr@portejr.com.br',
+						'phone' => '(32)2102-3430',
+						'website' => 'http://www.ufjf.br/portejr/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://www.ufjf.br/wp-content/plugins/imgpgprinc_novo/arquivos/portejr/1.jpg'
+				],
+				[ 
+						'id' => 24,
+						'name' => 'ATP Jr.',
+						'abbreviation' => 'ATP Jr.',
+						'email' => 'projetos.atp@gmail.com',
+						'phone' => '(31)8690-6761 / (31)9116-3269',
+						'website' => 'www.facebook.com/atpjunior',
+						'university_id' => 11,
+						'city_id' => 2102,
+						'image' => 'https://premiocenje.files.wordpress.com/2012/12/logomarca-atp-jr-25x65cm-formato1.png'
+				],
+				[ 
+						'id' => 25,
+						'name' => 'AgroPlan UFV',
+						'abbreviation' => 'AgroPlan',
+						'email' => 'agroplan@ufv.br',
+						'phone' => '(31)3899-2163',
+						'website' => 'http://www.agroplanufv.com.br',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://1.bp.blogspot.com/-Y5ijV0dwLig/T8zUe6U2tUI/AAAAAAAACyY/pnnD2T51qs4/s1600/Logo+(fundo+transparente).png'
+				],
+				[ 
+						'id' => 26,
+						'name' => 'Ambiental Jr.',
+						'abbreviation' => 'Ambiental Jr.',
+						'email' => 'faleconosco@ambientaljr.com.br',
+						'phone' => '(31)3899-2714',
+						'website' => 'http://www.ambientaljr.com.br/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://www.ambientaljr.com.br/images/logo.png'
+				],
+				[ 
+						'id' => 27,
+						'name' => 'Cace Consultoria Jr.',
+						'abbreviation' => 'Cace',
+						'email' => 'cace@caceconsultoria.com.br',
+						'phone' => '(31)3899-1586',
+						'website' => 'http://www.caceconsultoria.com.br/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://www.caceconsultoria.com.br/wp-content/themes/hybrid-news/images/logo_cace.png'
+				],
+				[ 
+						'id' => 28,
+						'name' => 'In Bio - Empresa Junior de Biologia',
+						'abbreviation' => 'InBio',
+						'email' => 'inbio.ej@gmail.com',
+						'phone' => '(31)3899-2714',
+						'website' => 'http://www.inbio.ufv.br/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'https://goo.gl/IyL8sp'
+				],
+				[ 
+						'id' => 29,
+						'name' => 'Sinergia Jr.',
+						'abbreviation' => 'Sinergia',
+						'email' => 'contato@sinergiaufv.com',
+						'phone' => '(31)3899-1745',
+						'website' => 'http://sinergiaufv.com/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'https://goo.gl/IyL8sp'
+				],
+				[ 
+						'id' => 30,
+						'name' => 'Soluções Consultoria Jr.',
+						'abbreviation' => 'Soluções Consultorias Jr.',
+						'email' => 'solucoes@ufv.br',
+						'phone' => '(31)3899-3267',
+						'website' => 'http://solucoesufv.com.br/servicos/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://solucoesufv.com.br/wp-content/uploads/2014/07/sitelogo1.png'
+				],
+				[ 
+						'id' => 31,
+						'name' => 'Projet Jr.',
+						'abbreviation' => 'Soluções Consultorias Jr.',
+						'email' => 'presidencia.ufop@em.ufop.br',
+						'phone' => '(31)7564-7439',
+						'website' => 'www.projet.ufop.br',
+						'university_id' => 8,
+						'city_id' => 2104,
+						'image' => 'http://www.projet.ufop.br/wp-content/uploads/2015/05/semfundo3.png'
+				],
 		);
 		
 		// Uncomment the below to run the seeder
 		DB::table ( 'junior_enterprises' )->insert ( $junior_enterprises );
 	}
 }
+

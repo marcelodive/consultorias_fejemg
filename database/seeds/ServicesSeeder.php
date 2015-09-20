@@ -350,6 +350,136 @@ class ServicesSeeder extends Seeder {
 					'name' => 'Projetos Elétricos',
 					'field_id' => 11
 				],
+				[
+					'id' => 69,
+					'name' => 'Artes Gráficas',
+					'field_id' => 9
+				],
+				[
+					'id' => 70,
+					'name' => 'Produção de Textos',
+					'field_id' => 5
+				],
+				[
+					'id' => 71,
+					'name' => 'Layout para Web',
+					'field_id' => 5
+				],
+				[
+					'id' => 72,
+					'name' => 'Análise de Saneantes',
+					'field_id' => 6
+				],
+				[
+					'id' => 73,
+					'name' => 'Projeto Arquitetônico',
+					'field_id' => 12
+				],
+				[
+					'id' => 74,
+					'name' => 'Design de Interiores',
+					'field_id' => 12
+				],
+				[
+					'id' => 75,
+					'name' => 'Gerenciamento de Resíduos Sólidos',
+					'field_id' => 11
+				],
+				[
+					'id' => 76,
+					'name' => 'Licenciamento Ambiental',
+					'field_id' => 11
+				],
+				[
+					'id' => 77,
+					'name' => 'Processamento de Biomassa',
+					'field_id' => 11
+				],
+				[
+					'id' => 78,
+					'name' => 'Controle de Poluição',
+					'field_id' => 15
+				],
+				[
+					'id' => 79,
+					'name' => 'Produção biotecnológica de fármacos e vacinas',
+					'field_id' => 6
+				],
+				[
+					'id' => 80,
+					'name' => 'Produção de cosméticos',
+					'field_id' => 6
+				],
+				[
+					'id' => 81,
+					'name' => 'Implantação/manutenção de plantações, florestas e pastagens',
+					'field_id' => 16
+				],
+				[
+					'id' => 82,
+					'name' => 'Assistência técnica em bovinocultura',
+					'field_id' => 16
+				],
+				[
+					'id' => 83,
+					'name' => 'Treinamento para operação e manutenção de ETE’s',
+					'field_id' => 11
+				],
+				[
+					'id' => 84,
+					'name' => 'Sistema de Gestão Ambiental',
+					'field_id' => 15
+				],
+				[
+					'id' => 85,
+					'name' => 'Pesquisa de Opinião e Satisfação',
+					'field_id' => 15
+				],
+				[
+					'id' => 86,
+					'name' => 'Controle de Estoque',
+					'field_id' => 15
+				],
+				[
+					'id' => 87,
+					'name' => 'Levantamento de Fauna e Flora',
+					'field_id' => 15
+				],
+				[
+					'id' => 88,
+					'name' => 'Coleta e Destinação do Óleo',
+					'field_id' => 15
+				],
+				[
+					'id' => 89,
+					'name' => 'Desenvolvimento, Otimização e Simulação de Processos',
+					'field_id' => 11
+				],
+				[
+					'id' => 90,
+					'name' => 'Regulamentação, segurança e boas práticas laboratoriais',
+					'field_id' => 13
+				],
+				[
+					'id' => 91,
+					'name' => 'Análises químicas e microbiológicas',
+					'field_id' => 6
+				],
+				[
+					'id' => 92,
+					'name' => 'Engenharia Econômica',
+					'field_id' => 11
+				],
+				[
+					'id' => 93,
+					'name' => 'Automatização de sistemas através de circuitos hidráulicos e pneumáticos',
+					'field_id' => 11
+				],
+				[
+					'id' => 94,
+					'name' => 'Planejamento Logístico',
+					'field_id' => 17
+				],
 				
 				
 				

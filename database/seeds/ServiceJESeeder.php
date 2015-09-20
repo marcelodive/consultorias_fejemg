@@ -440,13 +440,274 @@ class ServiceJESeeder extends Seeder {
 					'service_id' => 66,
 					'je_id' => 19
 				],
-				
-				
-				
-				
-				
+				[
+					'service_id' => 69,
+					'je_id' => 20
+				],
+				[
+					'service_id' => 70,
+					'je_id' => 20
+				],
+				[
+					'service_id' => 71,
+					'je_id' => 20
+				],
+				[
+					'service_id' => 72,
+					'je_id' => 21
+				],
+				[
+					'service_id' => 13,
+					'je_id' => 21
+				],
+				[
+					'service_id' => 42,
+					'je_id' => 21
+				],
+				[
+					'service_id' => 22,
+					'je_id' => 22
+				],
+				[
+					'service_id' => 47,
+					'je_id' => 22
+				],
+				[
+					'service_id' => 16,
+					'je_id' => 22
+				],
+				[
+					'service_id' => 73,
+					'je_id' => 23
+				],	
+				[
+					'service_id' => 74,
+					'je_id' => 23
+				],	
+				[
+					'service_id' => 75,
+					'je_id' => 23
+				],	
+				[
+					'service_id' => 76,
+					'je_id' => 23
+				],	
+				[
+					'service_id' => 63,
+					'je_id' => 23
+				],	
+				[
+					'service_id' => 77,
+					'je_id' => 24
+				],	
+				[
+					'service_id' => 78,
+					'je_id' => 24
+				],	
+				[
+					'service_id' => 79,
+					'je_id' => 24
+				],
+				[
+					'service_id' => 80,
+					'je_id' => 24
+				],
+				[
+					'service_id' => 81,
+					'je_id' => 25
+				],
+				[
+					'service_id' => 62,
+					'je_id' => 25
+				],
+				[
+					'service_id' => 82,
+					'je_id' => 25
+				],
+				[
+					'service_id' => 42,
+					'je_id' => 25
+				],
+				[
+					'service_id' => 83,
+					'je_id' => 26
+				],
+				[
+					'service_id' => 75,
+					'je_id' => 26
+				],
+				[
+					'service_id' => 63,
+					'je_id' => 26
+				],
+				[
+					'service_id' => 76,
+					'je_id' => 26
+				],
+				[
+					'service_id' => 84,
+					'je_id' => 26
+				],
+				[
+					'service_id' => 33,
+					'je_id' => 26
+				],
+				[
+					'service_id' => 47,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 18,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 85,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 56,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 51,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 43,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 16,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 26,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 27,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 86,
+					'je_id' => 27
+				],
+				[
+					'service_id' => 87,
+					'je_id' => 28
+				],
+				[
+					'service_id' => 88,
+					'je_id' => 28
+				],
+				[
+					'service_id' => 63,
+					'je_id' => 28
+				],
+				[
+					'service_id' => 89,
+					'je_id' => 29
+				],
+				[
+					'service_id' => 75,
+					'je_id' => 29
+				],
+				[
+					'service_id' => 90,
+					'je_id' => 29
+				],
+				[
+					'service_id' => 91,
+					'je_id' => 29
+				],
+				[
+					'service_id' => 42,
+					'je_id' => 30
+				],
+				[
+					'service_id' => 92,
+					'je_id' => 30
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 30
+				],
+				[
+					'service_id' => 93,
+					'je_id' => 30
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 16,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 47,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 94,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 18,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 42,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 20,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 85,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 43,
+					'je_id' => 31
+				],
+				[
+					'service_id' => 56,
+					'je_id' => 31
+				],
 		);
 		// Uncomment the below to run the seeder
 		DB::table ( 'service_je' )->insert ( $serviceJE );
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
