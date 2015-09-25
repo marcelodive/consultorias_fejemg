@@ -181,7 +181,7 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'phone' => '(35)3629-1640',
 						'website' => 'www.unifeijr.com.br',
 						'university_id' => 7,
-						'city_id' => 1925,
+						'city_id' => 1932,
 						'image' => 'http://www.unifeijr.com.br/site/wp-content/uploads/2013/09/template-prj-site1.png'
 				],
 				[ 
@@ -370,6 +370,17 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'university_id' => 8,
 						'city_id' => 2104,
 						'image' => 'http://www.projet.ufop.br/wp-content/uploads/2015/05/semfundo3.png'
+				],
+				[ 
+						'id' => 32,
+						'name' => 'Sênior Consultorias Ambiental Jr.',
+						'abbreviation' => 'Sênior',
+						'email' => 'contato@seniorconsultoriajr.com.br',
+						'phone' => '(31)9970-3019',
+						'website' => 'http://www.seniorconsultoriajr.com.br/',
+						'university_id' => 8,
+						'city_id' => 1975,
+						'image' => 'http://www.seniorconsultoriajr.com.br/Logo_20-_20S_C3_AAnior_20Fundo_20Transparente.png'
 				],
 		);
 		

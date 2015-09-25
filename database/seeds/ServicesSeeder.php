@@ -480,6 +480,31 @@ class ServicesSeeder extends Seeder {
 					'name' => 'Planejamento Logístico',
 					'field_id' => 17
 				],
+				[
+					'id' => 95,
+					'name' => 'Análise de estabilidade e contenção de taludes e encostas',
+					'field_id' => 15
+				],
+				[
+					'id' => 96,
+					'name' => 'Recuperação de Áreas Degradadas',
+					'field_id' => 15
+				],
+				[
+					'id' => 97,
+					'name' => 'Aquisição de outorgas para uso de recursos hídricos',
+					'field_id' => 15
+				],
+				[
+					'id' => 98,
+					'name' => 'Reuso e recirculação das águas',
+					'field_id' => 15
+				],
+				[
+					'id' => 99,
+					'name' => 'Plano de Coleta Seletiva',
+					'field_id' => 15
+				],
 				
 				
 				

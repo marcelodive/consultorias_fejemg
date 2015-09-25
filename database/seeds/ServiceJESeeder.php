@@ -680,6 +680,34 @@ class ServiceJESeeder extends Seeder {
 					'service_id' => 56,
 					'je_id' => 31
 				],
+				[
+					'service_id' => 85,
+					'je_id' => 32
+				],
+				[
+					'service_id' => 95,
+					'je_id' => 32
+				],
+				[
+					'service_id' => 96,
+					'je_id' => 32
+				],
+				[
+					'service_id' => 76,
+					'je_id' => 32
+				],
+				[
+					'service_id' => 97,
+					'je_id' => 32
+				],
+				[
+					'service_id' => 98,
+					'je_id' => 32
+				],
+				[
+					'service_id' => 63,
+					'je_id' => 32
+				],
 		);
 		// Uncomment the below to run the seeder
 		DB::table ( 'service_je' )->insert ( $serviceJE );
