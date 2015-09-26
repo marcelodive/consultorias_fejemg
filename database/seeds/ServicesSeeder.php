@@ -505,6 +505,36 @@ class ServicesSeeder extends Seeder {
 					'name' => 'Plano de Coleta Seletiva',
 					'field_id' => 15
 				],
+				[
+					'id' => 100,
+					'name' => 'Análise de Custo e Preço de Venda',
+					'field_id' => 2
+				],
+				[
+					'id' => 101,
+					'name' => 'Organização de Eventos',
+					'field_id' => 8
+				],
+				[
+					'id' => 102,
+					'name' => 'Levantamento Patrimonial',
+					'field_id' => 8
+				],
+				[
+					'id' => 103,
+					'name' => 'Viabilidade de Negócios',
+					'field_id' => 2
+				],
+				[
+					'id' => 104,
+					'name' => 'Planejamento e Controle da Produção',
+					'field_id' => 11
+				],
+				[
+					'id' => 105,
+					'name' => 'Assessoria Contábil',
+					'field_id' => 2
+				],
 				
 				
 				

@@ -382,6 +382,50 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'city_id' => 1975,
 						'image' => 'http://www.seniorconsultoriajr.com.br/Logo_20-_20S_C3_AAnior_20Fundo_20Transparente.png'
 				],
+				[ 
+						'id' => 33,
+						'name' => 'CAMPE Consultorias Jr.',
+						'abbreviation' => 'Campe',
+						'email' => 'atendimento@campe.com.br',
+						'phone' => '(32)2102-3529',
+						'website' => 'http://www.campe.com.br/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://www.campe.com.br/wp-content/themes/sitecampe/img/logo.png'
+				],
+				[ 
+						'id' => 34,
+						'name' => 'Granbery Consultoria',
+						'abbreviation' => 'Granbery',
+						'email' => 'contato@granberyconsultoria.com.br',
+						'phone' => '(32)2101-1877',
+						'website' => 'http://www.granberyconsultoria.com.br/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://www.granberyconsultoria.com.br/img/gcons.png'
+				],
+				[ 
+						'id' => 35,
+						'name' => 'Mais Consultoria Jr.',
+						'abbreviation' => 'Mais',
+						'email' => 'maisconsultoria@maisconsultoria.com.br',
+						'phone' => '(32)2102-3447',
+						'website' => 'http://maisconsultoria.com.br/site/contato/',
+						'university_id' => 9,
+						'city_id' => 1983,
+						'image' => 'http://www.granberyconsultoria.com.br/img/gcons.png'
+				],	
+				[ 
+						'id' => 36,
+						'name' => 'Dinâmica Consultoria Jr.',
+						'abbreviation' => 'Dinâmica',
+						'email' => 'contato@dinamicajr.com.br',
+						'phone' => '(32)3379-2366',
+						'website' => 'dinamicajr.com.br',
+						'university_id' => 12,
+						'city_id' => 2295,
+						'image' => 'http://dinamicajr.com.br/wp-content/uploads/2015/08/Logo-Din%C3%A2mica.png'
+				],
 		);
 		
 		// Uncomment the below to run the seeder

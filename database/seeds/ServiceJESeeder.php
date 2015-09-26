@@ -708,6 +708,154 @@ class ServiceJESeeder extends Seeder {
 					'service_id' => 63,
 					'je_id' => 32
 				],
+				[
+					'service_id' => 85,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 18,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 26,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 27,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 100,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 22,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 21,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 20,
+					'je_id' => 33
+				],
+				[
+					'service_id' => 16,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 101,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 102,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 103,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 47,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 18,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 85,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 52,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 27,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 1,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 2,
+					'je_id' => 34
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 35
+				],
+				[
+					'service_id' => 43,
+					'je_id' => 35
+				],
+				[
+					'service_id' => 104,
+					'je_id' => 35
+				],
+				[
+					'service_id' => 100,
+					'je_id' => 35
+				],
+				[
+					'service_id' => 42,
+					'je_id' => 35
+				],
+				[
+					'service_id' => 20,
+					'je_id' => 35
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 105,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 56,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 51,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 26,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 27,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 71,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 47,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 18,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 101,
+					'je_id' => 36
+				],
+				[
+					'service_id' => 65,
+					'je_id' => 36
+				],
 		);
 		// Uncomment the below to run the seeder
 		DB::table ( 'service_je' )->insert ( $serviceJE );

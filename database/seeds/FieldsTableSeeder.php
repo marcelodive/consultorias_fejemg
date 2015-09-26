@@ -13,7 +13,7 @@ class FieldsTableSeeder extends Seeder {
 				],
 				[
 						'id' => 2,
-						'name' => 'Economia',
+						'name' => 'Economia / Finanças',
 				],
 				[
 						'id' => 3,
