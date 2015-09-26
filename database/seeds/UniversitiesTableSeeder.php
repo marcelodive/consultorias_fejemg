@@ -55,6 +55,10 @@ class UniversitiesTableSeeder extends Seeder {
 						'id' => 12,
 						'name' => 'Universidade Federal de São João Del Rey',
 				],
+				[
+						'id' => 13,
+						'name' => 'Universidade Federal de Uberlândia',
+				],
 		);
 
 		// Uncomment the below to run the seeder

@@ -75,6 +75,10 @@ class FieldsTableSeeder extends Seeder {
 						'id' => 17,
 						'name' => 'Logística',
 				],
+				[
+						'id' => 18,
+						'name' => 'Educação Física',
+				],
 		);
 		
 		// Uncomment the below to run the seeder

@@ -425,6 +425,127 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 						'university_id' => 12,
 						'city_id' => 2295,
 						'image' => 'http://dinamicajr.com.br/wp-content/uploads/2015/08/Logo-Din%C3%A2mica.png'
+				],	
+				[ 
+						'id' => 37,
+						'name' => 'Ômega Jr.',
+						'abbreviation' => 'Ômega',
+						'email' => 'contato@omegajunior.com.br',
+						'phone' => '(32)3371-7551',
+						'website' => 'http://omegajunior.com.br/',
+						'university_id' => 12,
+						'city_id' => 2295,
+						'image' => 'http://omegajunior.com.br/wp-content/uploads/2015/02/omega-logo.png'
+				],	
+				[ 
+						'id' => 38,
+						'name' => 'Perfil - Consultoria Jr. em Psicologia',
+						'abbreviation' => 'Perfil Jr.',
+						'email' => 'perfil.ufsj@yahoo.com.br',
+						'phone' => '(32)3379-2352',
+						'website' => 'http://www.perfiljr.com.br/contato/',
+						'university_id' => 12,
+						'city_id' => 2295,
+						'image' => 'http://www.perfiljr.com.br/wp-content/themes/retro-fitted/images/logopf.png'
+				],
+				[ 
+						'id' => 39,
+						'name' => 'Ejel - Consultoria e Projetos Elétricos Jr.',
+						'abbreviation' => 'Perfil Jr.',
+						'email' => 'contato@ejel.com.br',
+						'phone' => '(32)3379-2352',
+						'website' => 'http://www.ejel.com.br/',
+						'university_id' => 12,
+						'city_id' => 2295,
+						'image' => 'http://www.ejel.com.br/images/logo.png'
+				],
+				[ 
+						'id' => 40,
+						'name' => 'ACPE - Assessoria Consultoria Planejamento Econômico',
+						'abbreviation' => 'ACPE Jr.',
+						'email' => 'acpe@ie.ufu.br',
+						'phone' => '(34)3239-4526',
+						'website' => 'http://www.acpeconsultoria.com.br/',
+						'university_id' => 13,
+						'city_id' => 2389,
+						'image' => 'http://www.ejel.com.br/images/logo.png'
+				],
+				[ 
+						'id' => 41,
+						'name' => 'Apoio Consultoria Jr.',
+						'abbreviation' => 'Apoio',
+						'email' => 'contato@apoioconsultoria.adm.br',
+						'phone' => '(34)3239-4460',
+						'website' => 'http://www.apoioconsultoria.adm.br/',
+						'university_id' => 13,
+						'city_id' => 2389,
+						'image' => 'http://www.apoioconsultoria.adm.br/img/logomarca.png'
+				],
+				[ 
+						'id' => 42,
+						'name' => 'Conselt - Consultoria em Engenharia Elétrica',
+						'abbreviation' => 'Conselt',
+						'email' => 'conselt@ufu.br',
+						'phone' => '(34)3239-4759',
+						'website' => 'http://www.conselt.eletrica.ufu.br/',
+						'university_id' => 13,
+						'city_id' => 2389,
+						'image' => 'http://www.conselt.eletrica.ufu.br/images/logoconselt.png'
+				],
+				[ 
+						'id' => 43,
+						'name' => 'Meta Consultoria Jr.',
+						'abbreviation' => 'Meta',
+						'email' => 'contato@metaej.com.br',
+						'phone' => '(34)3239-4005',
+						'website' => 'http://www.conselt.eletrica.ufu.br/',
+						'university_id' => 13,
+						'city_id' => 2389,
+						'image' => 'http://www.conselt.eletrica.ufu.br/images/logoconselt.png'
+				],
+				[ 
+						'id' => 44,
+						'name' => 'Alimentos Jr.',
+						'abbreviation' => 'Alimentos',
+						'email' => 'contato@alimentosjunior.com.br',
+						'phone' => '(31)3899-1840',
+						'website' => 'http://www.alimentosjunior.com.br/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://alimentosjunior.com.br/wp-content/uploads/2014/05/logo.jpg'
+				],
+				[ 
+						'id' => 45,
+						'name' => 'Educação Física Consultoria, Assessoria e Prestação de Serviços',
+						'abbreviation' => 'Eficap',
+						'email' => 'eficap.presidente@gmail.com',
+						'phone' => '(31)3899-3284',
+						'website' => 'http://www.eficap.com.br/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://files.eficap.com.br/200003112-edfe7eef7f/logos.png'
+				],
+				[ 
+						'id' => 46,
+						'name' => 'SEC Jr. Consultoria',
+						'abbreviation' => 'SEC Jr.',
+						'email' => 'contato@secjr.com',
+						'phone' => '(31)3899-1584',
+						'website' => 'http://www.secjr.ufv.br/',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://www.secjr.ufv.br/CSS/Imagens/logo.png'
+				],
+				[ 
+						'id' => 47,
+						'name' => 'UFV Jr. Florestal',
+						'abbreviation' => 'Florestal',
+						'email' => 'ufvjrflorestal@gmail.com',
+						'phone' => '(31)3899-1192',
+						'website' => 'www.florestaljr.ufv.br',
+						'university_id' => 2,
+						'city_id' => 202,
+						'image' => 'http://www.404notfound.fr/assets/images/pages/img/androiddev101.jpg'
 				],
 		);
 		
@@ -432,4 +553,36 @@ class JuniorEnterprisesTableSeeder extends Seeder {
 		DB::table ( 'junior_enterprises' )->insert ( $junior_enterprises );
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

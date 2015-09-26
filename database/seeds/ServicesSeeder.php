@@ -230,9 +230,9 @@ class ServicesSeeder extends Seeder {
 						'field_id' => 11
 				],
 				[
-						'id' => 46,
-						'name' => 'Análise Ergonômica do Trabalho',
-						'field_id' => 13
+					'id' => 46,
+					'name' => 'Análise Ergonômica do Trabalho',
+					'field_id' => 13
 				],
 
 				[
@@ -534,6 +534,96 @@ class ServicesSeeder extends Seeder {
 					'id' => 105,
 					'name' => 'Assessoria Contábil',
 					'field_id' => 2
+				],
+				[
+					'id' => 106,
+					'name' => 'Sistemas Mecânicos',
+					'field_id' => 11
+				],
+				[
+					'id' => 107,
+					'name' => 'Sistemas Mecatrônicos',
+					'field_id' => 11
+				],
+				[
+					'id' => 108,
+					'name' => 'Projetos Aeronáuticos',
+					'field_id' => 11
+				],
+				[
+					'id' => 109,
+					'name' => 'Desenvolvimento e Aperfeiçoamento das Formulações de Produtos',
+					'field_id' => 7
+				],
+				[
+					'id' => 110,
+					'name' => 'Indicação e Utilização de Métodos de Conservação de Alimentos Industrializados',
+					'field_id' => 7
+				],
+				[
+					'id' => 111,
+					'name' => 'Testes de Vida de Prateleira',
+					'field_id' => 7
+				],
+				[
+					'id' => 112,
+					'name' => 'Indicação e Estudo de Embalagens',
+					'field_id' => 7
+				],
+				[
+					'id' => 113,
+					'name' => 'Implantação do Programa de Boas Práticas de Fabricação (BPF)',
+					'field_id' => 7
+				],
+				[
+					'id' => 114,
+					'name' => 'Consultoria e assessoria em Eventos Esportivos',
+					'field_id' => 18
+				],
+				[
+					'id' => 115,
+					'name' => 'Consultoria em Ginástica Laboral',
+					'field_id' => 18
+				],
+				[
+					'id' => 116,
+					'name' => 'Serviços de arbitragem',
+					'field_id' => 18
+				],
+				[
+					'id' => 117,
+					'name' => 'Projeto relacionado a academia',
+					'field_id' => 18
+				],
+				[
+					'id' => 118,
+					'name' => 'Tradução, revisão e formatação de textos',
+					'field_id' => 5
+				],
+				[
+					'id' => 119,
+					'name' => 'Capacitação em Gestão do Tempo',
+					'field_id' => 14
+				],
+				[
+					'id' => 120,
+					'name' => 'Capacitação em Português para Negócios',
+					'field_id' => 14
+				],
+				[
+					'id' => 121,
+					'name' => 'Capacitação em Apresentações',
+					'field_id' => 14
+				],
+				[
+					'id' => 122,
+					'name' => 'Consultoria Florestal',
+					'field_id' => 16
+				],
+				[
+					'id' => 123,
+					'name' => 'Produção Florestal',
+					'field_id' => 16
 				],
 				
 				
