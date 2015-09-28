@@ -93,21 +93,7 @@
 			<img alt="Logo Consultorias" src="{{ url('/images/logo-consultoria.png') }}"
 			style="width:200px;">
 		
-<!-- 			<p> -->
-<!-- 				© Copyright 2015 <a href="http://www.fejemg.org.br/site/">Fejemg</a> -->
 
-<!-- 				<br>Desenvolvido por: -->
-<!-- 			</p> -->
-
-<!-- 			<img -->
-<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
-<!-- 				class="img-circle"> <img -->
-<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
-<!-- 				class="img-circle"> <img -->
-<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
-<!-- 				class="img-circle"> <img -->
-<!-- 				src="http://static.bleacherreport.net/images/redesign/avatars/default-user-icon-comment.png" -->
-<!-- 				class="img-circle"> -->
 
 		</div>
 

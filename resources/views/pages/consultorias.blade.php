@@ -146,8 +146,6 @@
     }
     function ordenarServices(){   
         $("#services").html($("option", $("#services")).sort(function(a,b){
-	    if(a.text == "Todos os Serviços") return -1;
-	    else if (b.text == "Todos os Serviços") return 1;
             return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
         }));
     }
