@@ -52,12 +52,12 @@
 					<img alt="Início" src="{{ url('/images/home.png') }}"
 					style="width:20px;">
 					Início</a></li>
-					<li><a href="#">
+					<li><a href="#" onclick="$('#popup').bPopup();">
 					<img alt="Quem Somos" src="{{ url('/images/icone-consultoria.png') }}"
 					style="width:20px;">
 					Quem Somos</a></li>
 					<li><a href="#">
-					<img alt="Quem Somos" src="{{ url('/images/contato.png') }}"
+					<img alt="Contato" src="{{ url('/images/contato.png') }}"
 					style="width:20px;">
 					Contato</a></li>
 				</ul>
@@ -110,5 +110,12 @@
 <!-- 				class="img-circle"> -->
 
 		</div>
+
+<div id="popup" class="container">
+	<p>A <strong>Federação das Empresas Juniores do Estado de Minas Gerais (FEJEMG) </strong> possui como missão representar, desenvolver e integrar as empresas juniores de Minas Gerais. Há 20 anos atuando ativamente no ecossistema empreendedor de Minas Gerais, a FEJEMG acredita que as empresas juniores possuem plenas competências para oferecer suporte aos empreendedores de nosso estado.<br /><br />
+
+As Empresas Juniores, compostas por alunos das melhores universidades do estado, realizam projetos e serviços, orientados por professores especializados, para micro e pequenos empreendedores em suas respectivas cidades. São nacionalmente reconhecidas pela sua excelência e, somente em 2014, movimentaram cerca de R$1,5 milhão em Minas Gerais.
+	</p>
+</div>
 </body>
 </html>

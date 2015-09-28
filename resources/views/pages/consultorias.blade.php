@@ -9,7 +9,7 @@
 	<script type="text/javascript"
 	src="{{ URL::asset('https://cdn.rawgit.com/dinbror/bpopup/master/jquery.bpopup.min.js') }}"></script>
 
-<div id="popup" class="container">
+<div id="popupOla" style="display:none" class="container">
 	<p>Olá, Empresário Júnior! <br />
 	   <br />
 	   Seja bem vindo à versão beta do <strong>Consultorias</strong>.<br />
@@ -59,7 +59,7 @@
 <script> 
 	$(document).ready(function(){	
 		ordenarCidades();
-		$('#popup').bPopup();
+		//$('#popup').bPopup();
 	
 		changeFields();
 
@@ -97,48 +97,8 @@
 	  
 
 	  $('#fields').change(function(){
-		  /*load = $('#servicesData').data('load');
-		    var value = $(this).val();
-		    lists = "";
-			var names = [];
-			var uniqueNames = [];
-		    for(var field in load){
-		      if(value == field){
-		        load[field].forEach(function(entry){
-				  names.push(entry.name); 
-		        });
-		      }
-		      else if (value == "Todos os Ramos"){
-    			  lists = "";
-		    	  load[field].forEach(function(entry){
-		    		  names.push(entry.name); 
-			      });
-		      }
-		    }
-
-		    $.each(names, function(i, el){
-			    if($.inArray(el, uniqueNames) === -1) {
-			    	 lists = lists + "<option value=\""+el+"\">"+el+"</option>";
-			   		 uniqueNames.push(el);
-			    }
-			});
-	  		$('#services').html(lists);
-	  */	
-	  //Nova função
-	  /*
-	  var city =  $('#cities').val();
-	  		var ramo =  $('#fields').val();
-	  		var restRequest = "http://localhost:8888/consultorias/"+city+"\/"+ramo; 
-	  		console.log(restRequest);
-	  		$.ajax({
-        			url: restRequest
-    			}).then(function(data) {
-    				console.log(data);
-	       			$('#services').html(data);
-   				 });
-		    
-		  });	*/
-	changeServices();
+		  
+	  changeServices();
 	});
 
 	function changeServices(){
@@ -179,16 +139,22 @@
 
 	function ordenarFields(){   
         $("#fields").html($("option", $("#fields")).sort(function(a,b){
+	    if(a.text == "Todos os Ramos") return -1;
+	    else if (b.text == "Todos os Ramos") return 1;
             return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
         }));
     }
     function ordenarServices(){   
         $("#services").html($("option", $("#services")).sort(function(a,b){
+	    if(a.text == "Todos os Serviços") return -1;
+	    else if (b.text == "Todos os Serviços") return 1;
             return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
         }));
     }
      function ordenarCidades(){   
         $("#cities").html($("option", $("#cities")).sort(function(a,b){
+	    if(a.text == "Todas as Cidades") return -1;
+	    else if (b.text == "Todas as Cidades") return 1;
             return a.text == b.text  ? 0 : a.text < b.text ? -1 : 1;
         }));
     }
