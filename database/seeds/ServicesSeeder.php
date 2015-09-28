@@ -625,6 +625,11 @@ class ServicesSeeder extends Seeder {
 					'name' => 'Produção Florestal',
 					'field_id' => 16
 				],
+				[
+					'id' => 124,
+					'name' => 'Consultoria em Estratégica Empresarial',
+					'field_id' => 14
+				],
 				
 				
 				

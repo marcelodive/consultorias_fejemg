@@ -247,11 +247,35 @@ class ServiceJESeeder extends Seeder {
 				],
 				
 				[
-					'service_id' => 54,
+					'service_id' => 23,
 					'je_id' => 11
 				],
 				[
-					'service_id' => 55,
+					'service_id' => 42,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 20,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 24,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 17,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 50,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 57,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 44,
 					'je_id' => 11
 				],
 				[
@@ -263,10 +287,53 @@ class ServiceJESeeder extends Seeder {
 					'je_id' => 11
 				],
 				[
+					'service_id' => 51,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 124,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 41,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 37,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 39,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 19,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 18,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 53,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 27,
+					'je_id' => 11
+				],
+				[
 					'service_id' => 26,
 					'je_id' => 11
 				],
-				
+				[
+					'service_id' => 52,
+					'je_id' => 11
+				],
+				[
+					'service_id' => 57,
+					'je_id' => 11
+				],				
 
 				[
 					'service_id' => 58,
